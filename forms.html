@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <center>
+<form >
+    <fieldset>
+        <h1>user personal information</h1>
+        <label for="name">Enter your full name:</label>
+        <input type="text" id="name" placeholder="Enter full name" required>
+        <br>
+        <label for="password">Enter your email:</label>
+        <input type="text" id="password"  placeholder="Enter email">
+        <br>
+        <label for="confirmpassword">Enter confirmpassword:</label>
+        <input type="password" id="password"  placeholder="Enter copassword" />
+        <br>
+        <label for="phone">Enter confirmpassword:</label>
+        <input type="tel" id="phone" pattern="{0-9}{10}" placeholder="Enter phone number" />
+        <br>
+        <label for="phonenumber">Enter your phonenumber</label>
+         <input type="tel" id="phone" required/>
+         <br>
+        <label>Enter your gender:</label>
+        <br><br>
+        <div class="gender-group">
+        <label for="male">male</label>
+        <input type="radio" name="gender" value="male" id="male"/>
+         <label for="female">female</label>
+        <input type="radio" name="gender" value="female" id="female"/>
+        <label for="others">others</label> 
+        <input type="radio" name="gender" value="others"id="others"/>
+        </div>
+        <br>
+        <label for="dob">Enter your date of birth</label>
+        <input type="date"  id="dob" required>
+        <br><br>
+    
+        <label for="address">Enter your addresss here:</label>
+        <input type="address" id="address"></textarea>
+    
+    
+    </center>
+         
+    
+    </fieldset>
+        
+    </fieldset>
+</form>
+</body>
+</html>
